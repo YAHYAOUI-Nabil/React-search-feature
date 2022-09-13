@@ -35,8 +35,7 @@ const SearchClientSide = () => {
             <div>
                 <input type='text' placeholder='search' onChange={handleChange} />
             </div>
-            <div style={{display: 'block', justifyContent: 'right'}}>
-                <div>
+            <div>
                 <table style={{display: 'block', width:'40vw', margin:'auto'}}>
                     <thead>
                         <tr>
@@ -55,7 +54,6 @@ const SearchClientSide = () => {
                         ))}
                     </tbody>
                 </table>
-                </div>
             </div>
         </div>
     )
